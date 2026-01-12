@@ -7,8 +7,9 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "node src/server.js",
     "client": "cd client && npm run dev",
-    "build": "cd client && npm run build",
-    "start": "NODE_ENV=production node src/server.js"
+    "build": "cd client && npm install && npm run build",
+    "start": "NODE_ENV=production node src/server.js",
+    "vercel-build": "cd client && npm install && npm run build"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",

@@ -119,6 +119,11 @@ function App() {
   const resultsEndRef = useRef(null);
   const inputRef = useRef(null);
 
+  // WebSocket URL - use environment variable or fallback
+  const WS_URL = import.meta.env.PROD 
+    ? 'wss://deep-research-agent-1-h9f2.onrender.com'
+    : 'ws://localhost:3001';
+
   // Load chat history from localStorage
   useEffect(() => {
     const saved = localStorage.getItem('gemini-research-history');
@@ -166,7 +171,7 @@ function App() {
     setIsResearching(true);
 
     // Create WebSocket connection
-    const ws = new WebSocket('ws://localhost:3001');
+    const ws = new WebSocket(WS_URL);
     socketRef.current = ws;
 
     ws.onopen = () => {

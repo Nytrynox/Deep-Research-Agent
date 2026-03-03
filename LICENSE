@@ -1,6 +1,6 @@
 PROPRIETARY AND CONFIDENTIAL LICENSE
 
-Copyright (c) 2026 Karthik Idikuda. All Rights Reserved.
+Copyright (c) 2024-2026 Karthik Idikuda. All Rights Reserved.
 
 1. EXCLUSIVE OWNERSHIP
 This software, source code, documentation, and all related materials (collectively, the "Software") are the sole and exclusive intellectual property of Karthik Idikuda.
@@ -17,10 +17,18 @@ You are strictly prohibited from:
 Any unauthorized use of this Software without explicit, written, and signed permission from Karthik Idikuda constitutes a severe violation of intellectual property laws. 
 Violators will be subject to:
    a. Immediate mandatory financial compensation (payment of fees determined solely by the copyright holder).
-   b. Aggressive civil litigation for damages.
-   c. Criminal prosecution and reporting to relevant law enforcement agencies, which may result in imprisonment.
+   b. Aggressive civil litigation for damages, including but not limited to actual damages, statutory damages, and attorney fees.
+   c. Criminal prosecution and reporting to relevant law enforcement agencies, which may result in imprisonment under applicable intellectual property and computer fraud statutes.
+   d. Injunctive relief to immediately cease all unauthorized use.
 
-4. LICENSING INQUIRIES
+4. MONITORING AND ENFORCEMENT
+The copyright holder actively monitors for unauthorized use of this Software through automated code scanning, plagiarism detection systems, and community reporting.
+All repositories contain embedded watermarks and tracking mechanisms for identification purposes.
+
+5. LICENSING INQUIRIES
 To obtain legal permission to use this Software, you must contact Karthik Idikuda directly to negotiate and pay the required licensing fees BEFORE any use occurs.
+Contact: idikudakarthik55@gmail.com
 
 By accessing this repository, you acknowledge and agree to be bound by these strict terms.
+
+UNIQUE IDENTIFIER: KI-PROPRIETARY-2026
